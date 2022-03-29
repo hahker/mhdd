@@ -19,7 +19,7 @@ from yarl import URL
 from mhddos.start import logger, Methods, bcolors as cl, main as mhddos_main, Tools
 
 
-PROXIES_URL = 'https://raw.githubusercontent.com/porthole-ascend-cinnamon/proxy_scraper/main/proxies.txt'
+PROXIES_URL = 'files/proxies/offline_proxies.txt'
 PROXY_TIMEOUT = 5
 UDP_THREADS = 1
 LOW_RPC = 1000
